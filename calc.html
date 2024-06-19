@@ -10,14 +10,15 @@
     <div class="calculator">
         <input type="text" class="calculator-screen" id="screen" disabled>
         <div class="calculator-keys">
+            <button class="operator" onclick="calculateSquareRoot()">√</button> <!-- Square Root Button -->
+            <button class="operator" onclick="appendPi('π')">π</button><!-- Pi Button -->
+            <button class="operator" onclick="calculatePercentage('%')">%</button> <!-- Percentage Button -->
+
+            <button class="operator" onclick="appendOperator('^')">^</button>
             <button class="operator" onclick="appendOperator('+')">+</button>
             <button class="operator" onclick="appendOperator('-')">-</button>
-            <button class="operator" onclick="appendOperator('*')">*</button>
-            <button class="operator" onclick="appendOperator('/')">/</button>
-            <button class="operator" onclick="calculateSquareRoot()">√</button> <!-- Square Root Button -->
-            <button class="operator" onclick="calculatepercent('%')">%</button> <!-- Percentage Button -->
-            <button class="operator" onclick="calculateBracketsButton()">()</button> <!-- Brackets -->
-
+            <button class="operator" onclick="appendOperator('*')">*</button> 
+            <button class="operator" onclick="appendOperator('/')">/</button>  
             <button onclick="appendNumber('1')">1</button>
             <button onclick="appendNumber('2')">2</button>
             <button onclick="appendNumber('3')">3</button>

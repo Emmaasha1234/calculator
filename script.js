@@ -33,3 +33,11 @@ function calculatepercent() {
 function calculateBracketsButton() {
     screen.value = '(' + screen.value + ')';
 }
+
+function calculatePowerButton() {
+    screen.value = Math.pow(screen.value, 2);
+}
+
+function appendPi() {
+    screen.value = Math.PI;
+}
